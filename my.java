@@ -18,23 +18,4 @@ class Main {
 
       // result contains sum of nth power of its digits
       while (originalNumber != 0) {
-        int remainder = originalNumber % 10;
-        result += Math.pow(remainder, digits);
-        originalNumber /= 10;
-      }
-
-      if (result == number) {
-        System.out.print(number + " ");
-      }
-    } 
- }
- #adding new feature by f1
- import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
-
-public class AppendFile {
-
-    public static void main(String[] args) {
-
+  
