@@ -18,4 +18,5 @@ class Main {
 
       // result contains sum of nth power of its digits
       while (originalNumber != 0) {
+        #done}
   
